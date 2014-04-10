@@ -1,0 +1,54 @@
+<html>
+  	<head>
+		<title> 
+			Lingo 
+		</title>
+		
+		<LINK href = "lingo.css" rel="stylesheet" type="text/css"></LINK> 
+		<script type="text/javascript" src="jquery.js"></script>
+		<script src="lingo.js" type="text/javascript"></script>
+		
+		<div id="blackheader">
+		</div>
+	</head>
+	
+	<body>
+		<div id="title">
+			<img src="header2.png"/>
+		</div>
+		
+		<div id="help">
+			<h1>Confused?</h1>
+			<p>1. Enter desired text into the text box</p>
+			<p>2. Hit Sumbit</p>
+			<p>3. Your submitted text will appear in a gray box below, ready for you to click each word in order to see it's definition appear in another box below it.</p>
+			<!-- <p id="dmode">Dictionary Mode</p>
+			<p>'Dictionary Mode' </p>
+			<p id="smode">Thesaurus Mode</p>
+			<p>'Thesaurus Mode' clears all changes you have made, reverting every expanded definition back to the original word.</p> -->
+		</div>
+			
+		<div id="content">
+			<div id="input">
+				<div id="label">
+					<span><label id="enter_here" for="textbox">Enter text here...</label>
+					<label id="click_here" for="outputbox">Click text here...</label></span>
+				</div>
+				
+				<span><textarea id="textbox" cols="70" rows="20" style="width: 450px; height: 225px"></textarea>
+				<span id="outputbox" ></span>
+				<p><input id="button" type="submit" value="Submit" onclick="splitText();"/></p>	
+			</div>
+			
+			<div id="output"> 
+				<div id="labels2">
+					<span><label id="dict_box" for="dictionary">Dictionary</label>
+					<label id="thes_box" for="thesaurus">Thesaurus</label></span>
+				</div>
+				
+				<span id="dictionary"></span>
+				<span id="thesaurus"></span>
+			</div>
+		</div>
+	</body>
+</html>
