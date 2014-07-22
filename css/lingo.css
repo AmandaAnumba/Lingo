@@ -1,0 +1,178 @@
+@font-face { 
+	font-family: 'karabine'; 
+	src: url('../fonts/karabine.ttf');
+	font-family: 'MISTRAL'; 
+	src: url('../fonts/MISTRAL.ttf'); 
+}
+
+body {
+	background: url(../images/bglines.png);
+	margin: auto;
+}
+
+/* HEADER */
+#blackheader {
+	margin: 0px;
+	height: 68px;
+	background-color: #333;
+	background-color: rgba(0, 0, 0, 0.65);
+	box-shadow: inset 0 -5px 8px -5px rgba(0,0,0,0.65);
+}
+
+#title {
+	margin: 0px;
+	float: left;
+	position: absolute;
+	display: block;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+
+/*HELP SIDEBAR*/
+#help {
+	z-index: 2;
+	float: right;
+	width: 220px; 
+	height: auto;
+	padding: 2px;
+	font-family: Century Gothic, sans-serif;
+	font-size: 14px;
+	/*text-transform: uppercase;*/
+	background: url(../images/bkgbrush.png);
+	border: 8px solid transparent;
+	background-clip: padding-box;
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+	text-transform: none;
+	text-align: center;
+	font-family: 'Mistral', sans-serif;
+	font-size: 45px;
+}
+
+#dmode {
+	background: white;
+	color: black;
+	width: 100px;
+	height: 40px;
+	border: dashed 1px cyan;
+	text-align: center;
+	margin-left: 50px;
+}
+
+#smode {
+	background: white;
+	color: black;
+	width: 100px;
+	height: 40px;
+	border: dashed 1px cyan;
+	text-align: center;
+	margin-left: 50px;
+}
+
+/*CONTENT*/
+#content {
+	position: absolute;
+	margin-top: 50px;
+	padding-top: 100px;
+	margin-left: 47px;
+	background: white;
+	width: 1000px;
+	height: auto;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+/*INPUT DATA AREA*/
+#input {
+	padding-bottom: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+label#enter_here {
+	font-family: 'MISTRAL', sans-serif;
+	font-size: 45px;
+}
+
+label#click_here {
+	font-family: 'MISTRAL', sans-serif;
+	font-size: 45px;
+	float: right;
+}
+
+#textbox {
+	max-width: 450px;
+	max-height: 225px;
+}
+
+#outputbox {
+	border: solid black 1px;
+	float: right;
+	width: 450px;
+	height: auto;
+	background-color: rgba(0, 0, 0, 0.65);
+	color: #FFCC66;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	padding: 8px;
+	font-family: Century Gothic, sans-serif;
+	font-size: 10pt;
+}
+
+.words {
+	margin-left: 3px;
+	word-wrap: break-word;
+}
+
+.highlighter {
+	background-color: #7CFFFF;
+	padding: 2px;
+	border-radius: 4px;
+	color: black !important;
+}
+
+/*OUTPUT DATA AREA*/
+#output {
+	margin-top: 56px;
+	padding-top: auto;
+}
+
+label#dict_box {
+	font-family: 'MISTRAL', sans-serif;
+	font-size: 45px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+label#thes_box {
+	font-family: 'MISTRAL', sans-serif;
+	font-size: 45px;
+	float: right;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#dictionary, #thesaurus {
+	width: 450px;
+	height: auto;
+	max-height: 300px;
+	overflow-y: scroll;
+	border: solid black 1px;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+	color: black;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	padding: 8px;
+}
+
+#dictionary {
+	float: left;
+}
+#thesaurus {
+	float: right;
+}

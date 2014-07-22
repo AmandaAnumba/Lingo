@@ -1,5 +1,5 @@
 function grabtweet() {
-	var url = "http://search.twitter.com/search.json?q=procrastinating, essay&callback=?";
+	var url = "https://api.twitter.com/1.1/search/tweets.json?q=procrastinating, essay&callback=?";
 	$.getJSON(url, handleRequest);
 }
 	
@@ -7,7 +7,7 @@ function handleRequest(data) {
 	for (var i = 0; i < data.results.length; i++) {
 		$('#twitter').append(buildTweet(data.results[i]))	
 	}
-	console.log(data);
+	// console.log(data);
 }	
 
 function buildTweet(tweet) {
