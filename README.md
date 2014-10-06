@@ -1,7 +1,7 @@
 Lingo
 =====
 
-Dictionary and Thesaurus tool built for my Tools and Technology of the Web course in 2012. This was my final project to display what I've learned in using HTML, CSS, JavaScript, and different APIs.
+Dictionary and Thesaurus tool built for my Tools and Technology of the Web course in 2011. This was my final project to display what I've learned in using HTML, CSS, JavaScript, and different APIs.
 
 Tools Used
 =====
